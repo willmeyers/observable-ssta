@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "sea-surface-temperature-anomalies"
+version = "0.1.0"
+description = ""
+authors = ["Will Meyers <will@willmeyers.net>"]
+readme = "README.md"
+packages = [{include = "sea_surface_temperature_anomalies"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.31.0"
+numpy = "^1.26.4"
+xarray = "^2024.2.0"
+geopandas = "^0.14.3"
+h5netcdf = "^1.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
